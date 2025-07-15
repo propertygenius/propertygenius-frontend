@@ -7,7 +7,7 @@ export default function LandingPage() {
       {/* 🔹 Top Navbar */}
       <header className="w-full shadow-md bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-xl font-bold text-green-600">Property Genius</div>
+          <div className="text-xl font-bold text-green-600">Property Geniuss</div>
           
           {/* ✅ Updated Nav with Icons */}
           <nav className="hidden md:flex space-x-6">
