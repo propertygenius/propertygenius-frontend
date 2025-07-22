@@ -1,5 +1,5 @@
 import React from "react";
-import { FaListUl, FaPoundSign, FaFileContract, FaEnvelope, FaChartLine } from "react-icons/fa";
+import { FaListUl, FaPoundSign, FaFileContract, FaEnvelope, FaChartLine, FaGavel } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function LandingPage() {
@@ -26,6 +26,9 @@ export default function LandingPage() {
             </a>
             <Link to="/rent-benchmarking" className="hover:text-green-600 font-medium flex items-center gap-2">
               <FaChartLine /> Rent Benchmarking
+            </Link>
+            <Link to="/legal-terms" className="hover:text-green-600 font-medium flex items-center gap-2"> 
+              <FaGavel /> Legal Terms
             </Link>
           </nav>
 
