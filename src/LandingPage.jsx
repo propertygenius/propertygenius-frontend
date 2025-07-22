@@ -18,18 +18,18 @@ export default function LandingPage() {
             <a href="#pricing" className="hover:text-green-600 font-medium flex items-center gap-2">
               <FaPoundSign /> Pricing
             </a>
-            <a href="#contract" className="hover:text-green-600 font-medium flex items-center gap-2">
-              <FaFileContract /> Contract Creation
-            </a>
-            <a href="#contact" className="hover:text-green-600 font-medium flex items-center gap-2">
-              <FaEnvelope /> Contact
-            </a>
             <Link to="/rent-benchmarking" className="hover:text-green-600 font-medium flex items-center gap-2">
               <FaChartLine /> Rent Benchmarking
             </Link>
+            <a href="#contract" className="hover:text-green-600 font-medium flex items-center gap-2">
+              <FaFileContract /> Contract Creation
+            </a>
             <Link to="/legal-terms" className="hover:text-green-600 font-medium flex items-center gap-2"> 
               <FaGavel /> Legal Terms
             </Link>
+            <a href="#contact" className="hover:text-green-600 font-medium flex items-center gap-2">
+              <FaEnvelope /> Contact
+            </a>
           </nav>
 
           <button className="ml-6 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 hidden md:block">
